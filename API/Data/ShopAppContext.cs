@@ -18,21 +18,17 @@ public class ShopAppContext : DbContext
     public DbSet<Collection> Collections { get; set; }
     public DbSet<Photo> Photos { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity<Product>()
-            .HasOne(p => p.Collection)
-            .WithMany(c => c.Products)
-            .HasForeignKey(p => p.CollectionId);
-        
-        modelBuilder.Entity<Photo>()
-            .HasOne(p => p.Product)
-            .WithMany(c => c.Photos)
-            .HasForeignKey(p => p.ProductId);
-    }
-    
+    // protected override void OnModelCreating(ModelBuilder modelBuilder)
+    // {
+    //     modelBuilder.Entity<Product>()
+    //         .HasOne(p => p.Collection)
+    //         .WithMany(c => c.Products)
+    //         .HasForeignKey(p => p.CollectionId);
+    //     
+    //     modelBuilder.Entity<Photo>()
+    //         .HasOne(p => p.Product)
+    //         .WithMany(c => c.Photos)
+    //         .HasForeignKey(p => p.ProductId);
+    // }
 
-    
-    
-    
 }
