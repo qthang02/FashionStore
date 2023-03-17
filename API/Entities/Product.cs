@@ -7,8 +7,8 @@ public class Product
     public string? Description { get; set; }
     public decimal Price { get; set; }
     public List<Photo>? Photos { get; set; }
-    public int CollectionId { get; set; }
-    public Collection? Collection { get; set; }
+    public int CategoryId { get; set; }
+    public Category? Category { get; set; }
     
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;

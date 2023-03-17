@@ -9,7 +9,7 @@ public class AutoMapperProfiles : Profile
 {
     public AutoMapperProfiles()
     {
-        CreateMap<Collection, CollectionDto>();
+        CreateMap<Category, CategoryDto>().ReverseMap();
         CreateMap<Product, ProductDto>();
         CreateMap<Photo, PhotoDto>();
     }

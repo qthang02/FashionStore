@@ -1,6 +1,6 @@
 ﻿namespace API.DTOs;
 
-public class CollectionDto
+public class CategoryDto
 {
     public int CollectionId { get; set; }
     public string? Name { get; set; }

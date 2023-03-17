@@ -11,7 +11,7 @@ public static class ApplicationServiceExtensions
         services.AddDbContext<ShopAppContext>();
         services.AddCors();
         services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-        services.AddScoped<ICollectionRepository, CollectionRepository>();
+        services.AddScoped<ICategoryRepository, CategoryRepository>();
 
         return services;
     }

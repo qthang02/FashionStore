@@ -1,8 +1,8 @@
 ﻿namespace API.Entities;
 
-public class Collection
+public class Category
 {
-    public int CollectionId { get; set; }
+    public int CategoryId { get; set; }
     public string? Name { get; set; }
     public string? Description { get; set; }
     public List<Product>? Products { get; set; }
