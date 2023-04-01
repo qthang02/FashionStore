@@ -6,8 +6,11 @@
     <projectFile profileName="https">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e15eab5-b171-4290-8553-508c1b1c57d4" name="Changes" comment="commit appsetting">
+    <list default="true" id="4e15eab5-b171-4290-8553-508c1b1c57d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/API/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/Systems/Controllers/TestUsersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests/UnitTest1.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitTests/UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/UnitTests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +121,7 @@
       <workItem from="1678980430355" duration="210000" />
       <workItem from="1679023936283" duration="470000" />
       <workItem from="1680327109915" duration="1773000" />
-      <workItem from="1680329876910" duration="831000" />
+      <workItem from="1680329876910" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="Created Entities(Photo, Product, Collection) and ShopAppContext.">
       <created>1678695779870</created>
@@ -148,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680330315100</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add package">
+      <created>1680330745795</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680330745795</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +173,7 @@
     <MESSAGE value="added AutoMapper, create CollectionRepository and make get collection list and get collection detail feature." />
     <MESSAGE value="Refactor Solution" />
     <MESSAGE value="commit appsetting" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit appsetting" />
+    <MESSAGE value="add package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add package" />
   </component>
 </project>
