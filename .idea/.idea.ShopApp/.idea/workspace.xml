@@ -6,35 +6,9 @@
     <projectFile profileName="https">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e15eab5-b171-4290-8553-508c1b1c57d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FashionStore/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NetApi_TDD/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NetApi_TDD/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NetApi_TDD/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NetApi_TDD/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NetApi_TDD/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitTests/UnitTest1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitTests/UnitTests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitTests/Usings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShopApp/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="4e15eab5-b171-4290-8553-508c1b1c57d4" name="Changes" comment="commit appsetting">
       <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/BaseApiController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/CategoryController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/ProductController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DTOs/CatagoryDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DTOs/PhotoDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DTOs/ProductDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Data/ShopAppContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Entities/Category.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Entities/Photo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Entities/Product.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Helper/AutoMapperProfiles.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Repositories/CategoryRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Repositories/ICategoryRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/NetApi_TDD.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests/UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/UnitTests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +118,7 @@
       <workItem from="1678980430355" duration="210000" />
       <workItem from="1679023936283" duration="470000" />
       <workItem from="1680327109915" duration="1773000" />
-      <workItem from="1680329876910" duration="317000" />
+      <workItem from="1680329876910" duration="831000" />
     </task>
     <task id="LOCAL-00001" summary="Created Entities(Photo, Product, Collection) and ShopAppContext.">
       <created>1678695779870</created>
@@ -160,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678719531890</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactor Solution">
+      <created>1680330219763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680330219763</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit appsetting">
+      <created>1680330315100</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680330315100</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +161,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Created Entities(Photo, Product, Collection) and ShopAppContext." />
     <MESSAGE value="added AutoMapper, create CollectionRepository and make get collection list and get collection detail feature." />
-    <option name="LAST_COMMIT_MESSAGE" value="added AutoMapper, create CollectionRepository and make get collection list and get collection detail feature." />
+    <MESSAGE value="Refactor Solution" />
+    <MESSAGE value="commit appsetting" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit appsetting" />
   </component>
 </project>
