@@ -3,7 +3,5 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
-API/appsettings.Development.json
-API/appsettings.json
 API/Data/Migrations/
 ShopApp.db
